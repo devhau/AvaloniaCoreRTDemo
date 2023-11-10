@@ -1,5 +1,6 @@
 This project shows how to integrate [Avalonia UI](https://avaloniaui.net) and [NativeAOT](https://github.com/dotnet/runtimelab/tree/feature/NativeAOT) (previously CoreRT). Both projects are under heavy development, have sparce documentation, and require subtle knowledge spread across multiple sources.
 Using this project, you will learn how to develop using both frameworks. You may also use it as a starting point for your projects.
+1
 
 ## System requirements
 This project is tested only under Windows, and this readme assumes you are using Windows. To build this project, you need:
