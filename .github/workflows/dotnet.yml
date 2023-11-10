@@ -10,7 +10,7 @@ jobs:
   build-on-linux:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Setup NativeAOT pre-requisites
       run: sudo apt-get install clang zlib1g-dev libkrb5-dev --assume-yes
     - name: Setup .NET
@@ -31,7 +31,7 @@ jobs:
   build-on-windows:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
@@ -48,7 +48,7 @@ jobs:
   build-on-macos:
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
